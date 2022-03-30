@@ -2,7 +2,6 @@
 SNACK 2 
 L’utente inserisce due parole in successione, con due prompt.
 Il software stampa prima la parola più corta, poi la parola più lunga.
-
 */
 
 const userWord1 = prompt("Inserisci una parola")
@@ -10,6 +9,8 @@ const userWord2 = prompt("Inserisci un'altra parola")
 
 const firstWord = userWord1.length
 const secondWord = userWord2.length
+console.log(`la prima parola è ${userWord1} ed è lunga ${firstWord} caratteri, la seconda parola è ${userWord2} ed è lunga ${secondWord} caratteri`)
+
 
 let stamp;
 
