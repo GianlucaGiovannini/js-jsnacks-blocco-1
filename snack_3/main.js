@@ -21,16 +21,27 @@ const somma = numero1 + numero2 + numero3 + numero4 + numero5 + numero6 + numero
 console.log(somma); */
 
 
-const numeri = []
+/* const numeri = []
 
 for (let i = 0; i < 10; i++) {
     let richiestaNumeri = Number(prompt("Inserisci un numero"))
     console.log(richiestaNumeri)
     numeri.push(richiestaNumeri)
 
-    for (let s = 0; s < numeri.length; s++) {
-        let sommaNumeri = numeri[s];
-        let numeriSommati = sommaNumeri + sommaNumeri;
-        console.log(numeriSommati)
-    }
 }
+
+for (let s = 0; s < numeri.length; s++) {
+    let sommaNumeri = numeri[s];
+    let numeriSommati = sommaNumeri + sommaNumeri;
+    console.log(numeriSommati)
+} */
+
+let somma, numero_utente;
+
+somma = 0;
+
+for (let i = 0; i < 10; i++) {
+    numero_utente = Number(prompt("Inserisci un numero"))
+    somma = somma += numero_utente;
+}
+console.log(somma)
