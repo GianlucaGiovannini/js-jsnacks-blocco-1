@@ -13,7 +13,8 @@ if (isNaN(numeroUtente)) {
 let somma = 0;
 
 for (let i = 0; i < numeroUtente.length; i++) {
-    somma = somma + parseInt(numeroUtente[i]);
+    somma += parseInt(numeroUtente[i]);
+    // si può fare anche con somma = somma + parseInt(numeroUtente[i]);
     console.log(somma)
 }
 
