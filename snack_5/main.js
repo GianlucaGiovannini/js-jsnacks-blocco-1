@@ -6,6 +6,7 @@ se è dispari inseriscilo nell’array.
 */
 
 const numeriDispari = [];
+const numeriPari = [];
 
 
 for (let i = 0; i < 6; i++) {
@@ -15,12 +16,17 @@ for (let i = 0; i < 6; i++) {
 
     if (numeroGiocatore % 2 != 0) {
         numeriDispari.push(numeroGiocatore)
+    } else {
+        numeriPari.push(numeroGiocatore)
     }
 
 }
 
 console.log(numeriDispari)
 
-const doveStampo = document.querySelector("h1");
+const doveStampoDispari = document.querySelector(".dispari");
+const doveStampoPari = document.querySelector(".pari");
 
-doveStampo.innerHTML = `i numeri dispari che hai scritto sono i seguenti: ${numeriDispari}`
+doveStampoDispari.innerHTML = `i numeri dispari che hai scritto sono i seguenti: ${numeriDispari}`
+
+doveStampoPari.innerHTML = `i numeri dispari che hai scritto sono i seguenti: ${numeriPari}`
