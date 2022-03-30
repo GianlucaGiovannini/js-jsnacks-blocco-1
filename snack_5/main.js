@@ -20,3 +20,7 @@ for (let i = 0; i < 6; i++) {
 }
 
 console.log(numeriDispari)
+
+const doveStampo = document.querySelector("h1");
+
+doveStampo.innerHTML = `i numeri dispari che hai scritto sono i seguenti: ${numeriDispari}`
