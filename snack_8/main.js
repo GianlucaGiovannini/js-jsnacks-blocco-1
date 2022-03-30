@@ -7,7 +7,7 @@ const numeroUtente = prompt("inserisci un numero di 4 cifre");
 console.log(numeroUtente)
 
 if (isNaN(numeroUtente)) {
-    alert("non sei entrato")
+    alert("non hai inserito un numero")
 }
 
 let somma = 0;
