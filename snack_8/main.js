@@ -6,6 +6,10 @@ chiedi un numero di 4 cifre all'utente e calcola la somma di tutte le cifre che 
 const numeroUtente = prompt("inserisci un numero di 4 cifre");
 console.log(numeroUtente)
 
+if (isNaN(numeroUtente)) {
+    alert("non sei entrato")
+}
+
 let somma = 0;
 
 for (let i = 0; i < numeroUtente.length; i++) {
