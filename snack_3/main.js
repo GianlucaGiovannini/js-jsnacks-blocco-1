@@ -26,7 +26,6 @@ somma = 0;
 
 for (let i = 0; i < 10; i++) {
     numero_utente = Number(prompt("Inserisci un numero"))
-    somma = somma += numero_utente;
+    somma = somma + numero_utente;
     console.log(somma)
 }
-console.log(somma)
