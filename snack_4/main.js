@@ -26,4 +26,7 @@ if (enable != true) {
     stamp = "utente abilitato"
 }
 
-console.log(stamp)
+console.log(stamp);
+
+const stampa_a_schermo = document.querySelector("h1")
+stampa_a_schermo.innerHTML = stamp;
