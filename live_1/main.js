@@ -19,3 +19,6 @@ if (userNumber1 > userNumber2) {
 }
 
 console.log(stamp)
+const stampa_a_schermo = document.querySelector("h1")
+
+stampa_a_schermo.innerHTML = stamp
