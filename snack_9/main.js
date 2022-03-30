@@ -9,13 +9,13 @@ console.log(numeri);
 
 let somma = 0;
 
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < numeri.length; i++) {
     somma = somma + parseInt(numeri[i]);
     console.log(somma)
 
 }
 
-const media = somma / 10
+const media = somma / numeri.length
 console.log(media);
 
 const stampaSomma = document.querySelector("h1")
