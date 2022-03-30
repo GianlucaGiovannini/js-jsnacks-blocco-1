@@ -14,16 +14,10 @@ console.log(numeroElevato)
 
 for (let i = 1; i <= numeroUtente; i++) {
     let cubi = parseInt(Math.pow(i, 3))
-
     console.log(cubi)
+
 }
 
+const stampa1 = document.querySelector("h1")
 
-
-
-
-
-
-const stampa_a_schermo = document.querySelector("h1")
-
-stampa_a_schermo.innerHTML = `Il numero che hai scelto elevato al cubo è ${numeroElevato}`
+stampa1.innerHTML = `Il numero che hai scelto elevato al cubo è ${numeroElevato}`;
