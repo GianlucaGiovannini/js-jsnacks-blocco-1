@@ -21,3 +21,18 @@ for (let i = 0; i < numeroUtente.length; i++) {
 const stampa_a_schermo = document.querySelector("h1")
 
 stampa_a_schermo.innerHTML = `la somma di tutte le cifre che compongono il numero che è scelto è ${somma}`
+
+
+
+//soluzione fabio
+/* 
+const numeroUser2 = prompt("Inserisci un numero di 4 cifre");
+
+let somma2 = 0;
+
+for (let n = 0; n < numeroUser2.length; n++){
+    let numero = parseInt(numeroUser2[n]); 
+    somma2 += numero;
+} 
+
+*/
