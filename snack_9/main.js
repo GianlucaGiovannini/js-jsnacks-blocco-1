@@ -23,3 +23,15 @@ stampaSomma.innerHTML = `la somma dei primi 10 numeri è ${somma}`
 
 const stampaMedia = document.querySelector("h2")
 stampaMedia.innerHTML = `la media della somma dei primi 10 numeri diviso i 10 numeri è ${media}`
+
+// soluzione fabio 
+let somma2 = 0;
+let media2 = 0;
+
+for (let n = 0; n <= 10; n++) {
+    somma2 += n;
+}
+
+media2 = somma2 / 10;
+console.log(somma2)
+console.log(media2)
